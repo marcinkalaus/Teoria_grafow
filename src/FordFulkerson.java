@@ -78,18 +78,18 @@ public class FordFulkerson {
             int nRows = strArr.length;
             int nCols = (strArr[0].length() - strArr[0].replace(" ", "").length()) + 1;
 
-            int[][] data = new int[nRows][nCols];
+            int[][] graph = new int[nRows][nCols];
 
             String[] split = new String[nCols];
             for (int r = 0; r < nRows; r++) {
                 split = strArr[r].split(" ");
                 for (int c = 0; c < nCols; c++) {
-                    data[r][c] = Integer.parseInt(split[c]);
+                    graph[r][c] = Integer.parseInt(split[c]);
                 }
             }
             b.close();
             FordFulkerson f = new FordFulkerson();
-            System.out.println("Maksymalny przepływ dla zadanego grafu wynosi: " + f.fordFulkersonAlgorithm(data, 0, data.length-1));
+            System.out.println("Maksymalny przepływ dla zadanego grafu wynosi: " + f.fordFulkersonAlgorithm(graph, 0, graph.length-1));
         } catch (Exception e) {
             System.err.println("Error: " + e.getMessage());
         }
