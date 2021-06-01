@@ -1,14 +1,15 @@
 <h2>Teoria grafów - projekt</h2>
-<br>
-W repozytorium znajdują się pliki z obu części projektu - analitycznej i projektowej:
-- część analityczna w pliku *MarcinKalaus_cz_analityczna.pdf*
-- część projektowa w pliku *MarcinKalaus_cz_projektowa.pdf*
-<br>
+W repozytorium znajdują się pliki z obu części projektu - analitycznej i projektowej:<br>
+
+* część analityczna w pliku *MarcinKalaus_cz_analityczna.pdf*
+* część projektowa w pliku *MarcinKalaus_cz_projektowa.pdf*
+
 <h3>Uruchomienie projektu</h3>
-<br>
+
 Aby uruchomić projekt najlepiej sklonować repozytorium i odpalić przez Intellij IDEA.
 Do uruchomienia w innych środowiskach wystarczą pliki src/FordFulkerson.java oraz graf.txt. <br>
-**UWAGA!**<br>
+
+**UWAGA!** <br>
 Podczas budowania projektu w przypadku innym niż otwieranie całej paczki w Intellij Idea,
 proszę zmienić ścieżkę dostępu w pliku FordFulkerson.java (linia 69) dla graf.txt.
 
