@@ -22,3 +22,8 @@ Danymi wejściowymi dla algorytmu jest macierz incydencji zapisana w pliku tekst
 >0 0 0 0 2 3<br>
 >0 0 0 0 0 12<br>
 >0 0 0 0 0 0<br>
+
+<h4>Ouput</h4>
+Program podaje na konsolę obliczony przepływ maksymalny dla zadanego grafu:
+
+>Maksymalny przepływ dla zadanego grafu wynosi: 15
